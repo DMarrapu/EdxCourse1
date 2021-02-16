@@ -1,0 +1,9 @@
+vowel = set("aeiouAEIOU") 
+count = 0      
+
+for alphabet in s: 
+      
+    if alphabet in vowel: 
+        count = count + 1
+      
+print("Number of vowels :", count) 
