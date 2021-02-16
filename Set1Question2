@@ -1,0 +1,15 @@
+count = 0
+start = 0
+
+while start < len(s): 
+
+    pos = s.find('bob', start) 
+  
+    if pos != -1: 
+
+        start = pos + 1
+  
+        count += 1
+    else: 
+        break
+print(count)
